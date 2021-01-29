@@ -1,12 +1,12 @@
 {
-  "name": "apple_ceos_v1",
+  "name": "power_rangers_v1",
   "version": "1.0.0",
   "description": "Express App to display a list of Apple CEOs, this is v1",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev": "nodemo app.js"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "keywords": [],
   "author": "Sean R Reid",

@@ -1,8 +1,10 @@
+'use strict'
+
 const express = require('express'),
     router = express.Router();
 
-router.get('/', (rec, res) => {
-    res.render('templates', {
+router.get('/', (req, res) => {
+    res.render('template', {
         locals: {
             title: "Home Page"
         },
